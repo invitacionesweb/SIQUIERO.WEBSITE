@@ -29,7 +29,6 @@ header {
     opacity: 100%;
     background-color: var(--black);
     min-width: 300px;
-    background-attachment: fixed;
 
     
 }
@@ -192,7 +191,6 @@ i {
     background-position: bottom;
     display: grid;
     place-items: center;
-    background-attachment: fixed;
     color: var(--color-secundario);
     font-size: 40px;
     
@@ -322,9 +320,6 @@ footer i:hover {
         grid-template-columns:  1fr;
         padding:0 20px;
     }
-    .header .section-four {
-        background-attachment: scroll;
-
-    }
+    
  }
 
