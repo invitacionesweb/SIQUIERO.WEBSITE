@@ -195,6 +195,7 @@ i {
     background-attachment: fixed;
     color: var(--color-secundario);
     font-size: 40px;
+    
 
 }
 
@@ -225,7 +226,14 @@ i {
     place-items: center center;
     color: var(--color-secundario);
     font-size: 40px;
+    text-align: center;
 
+}
+.box a {
+    color: var(--color-principal);
+}
+.box a:hover {
+    color: var(--black);
 }
 
 .section-six button {
@@ -262,6 +270,7 @@ footer i:hover {
 }
 
 @media (max-width: 820px){
+    
     .section-one {
         flex-direction: column-reverse;
         padding: 30px 0;
@@ -312,6 +321,10 @@ footer i:hover {
     .cards-container {
         grid-template-columns:  1fr;
         padding:0 20px;
+    }
+    .header .section-four {
+        background-attachment: scroll;
+
     }
  }
 
